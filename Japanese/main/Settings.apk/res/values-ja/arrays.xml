@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="status_bar_style_entries">
-        <item>Combined</item>
-        <item>Separate</item>
+        <item>複合表示</item> <!-- 複合表示としましたが統合もアリ？　-->
+        <item>分割表示</item> <!-- 分割表示 -->
     </string-array>
     <string-array name="status_bar_style_values">
         <item>0</item>
@@ -1090,8 +1090,16 @@
         <item>PEAP</item>
         <item>SIM</item>
     </string-array>
+    <string-array name="screen_key_position_action">
+        <item>左側にメニューボタン、右側に戻るボタン</item>
+        <item>左側に戻るボタン、右側にメニューボタン</item>
+    </string-array>
+    <string-array name="screen_key_position_action_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
     <string-array name="screen_key_press_action">
-        <item>Show recent apps tray</item>
+        <item>最近使ったアプリを表示</item>
         <item>メニューを表示</item>
     </string-array>
     <string-array name="screen_key_press_action_value">
@@ -1099,12 +1107,12 @@
         <item>show_menu</item>
     </string-array>
     <string-array name="screen_key_long_press_action">
-        <item>None</item>
-        <item>Show recent apps tray</item>
-        <item>Launch Assistant</item>
-        <item>Google Nowを起動</item>
-        <item>Close current app</item>
-        <item>メニューを表示</item>
+        <item>何もしない</item>
+		<item>最近使ったアプリを表示</item>
+		<item>アシスタントを起動</item>
+		<item>Google nowを起動</item>
+		<item>起動中のアプリを停止</item>
+		<item>メニューを表示</item>
     </string-array>
     <string-array name="screen_key_long_press_action_value">
         <item>none</item>
@@ -1681,13 +1689,13 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>4</item>
     </integer-array>
     <string-array name="alarm_repeat_type">
-        <item>Every day</item>
-        <item>Weekdays</item>
-        <item>Custom</item>
+        <item>毎日</item>
+        <item>平日</item>
+        <item>カスタム</item>
     </string-array>
     <string-array name="alarm_repeat_type_no_workdays">
-        <item>Every day</item>
-        <item>Weekdays</item>
-        <item>Custom</item>
+        <item>毎日</item>
+        <item>平日</item>
+        <item>カスタム</item>
     </string-array>
 </resources>
