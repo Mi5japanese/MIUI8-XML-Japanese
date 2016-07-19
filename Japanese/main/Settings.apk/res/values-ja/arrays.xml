@@ -1231,14 +1231,14 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>標準</item>
     </string-array>
     <string-array name="screen_optimize_title">
-        <item>Automatic contrast</item>
-        <item>Increased contrast</item>
-        <item>Standard</item>
+        <item>自動コントラスト</item>
+        <item>コントラスト強め</item>
+        <item>標準コントラスト</item>
     </string-array>
     <string-array name="screen_optimize_summary">
-        <item>Optimize contrast for available light</item>
-        <item>"Increase display's contrast"</item>
-        <item>Contrast will remain constant</item>
+        <item>自動でコントラストを最適化します</item>
+        <item>"ディスプレイのコントラストを増加させます"</item>
+        <item>コントラストが一定に保たれます</item>
     </string-array>
     <string-array name="perms_hips_values">
         <item>2</item>
@@ -1472,12 +1472,12 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>5分</item>
     </string-array>
     <string-array name="fluency_mode_entries">
-        <item>Hide system animations</item>
-        <item>Show system animations</item>
+        <item>システムアニメーションを非表示にする</item>
+        <item>システムアニメーションを表示する</item>
     </string-array>
     <string-array name="fluency_mode_summaries">
-        <item>"Speeds up device's performance"</item>
-        <item>"May slow down device's performance"</item>
+        <item>"端末のパフォーマンスが上がります"</item>
+        <item>"端末のパフォーマンスが下がる場合があります"</item>
     </string-array>
     <string-array name="fluency_mode_confirms">
         <item>変更を反映するために端末を再起動しますか？</item>
