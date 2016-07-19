@@ -30,7 +30,7 @@
         <item>2分</item>
         <item>5分</item>
         <item>10分</item>
-        <item>Never</item>
+        <item>オフにしない</item>
     </string-array>
     <string-array name="screen_timeout_values">
         <item>15000</item>
@@ -1281,7 +1281,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>mixed</item>
     </string-array>
     <string-array name="change_security_lock_picker">
-        <item>Face unlock</item>
+        <item>顔認識</item>
         <item>パターン</item>
         <item>PIN</item>
         <item>パスワード</item>
